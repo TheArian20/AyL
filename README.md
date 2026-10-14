@@ -6,7 +6,11 @@ La fecha de entrada es **22/09/2026** (también acepta 22092026). Las puertas se
 
 ## Personalizar
 
-Los textos están en `app.js`, en `chapters`. La navegación y las actividades están en `experience.js`. El diseño está en `style.css` y `motion.css`. No se han inventado anécdotas ni añadido música. Los mensajes son un borrador para revisar antes de compartir.
+Los textos están en `app.js`, en `chapters`. La navegación y las actividades están en `experience.js`. El diseño está en `style.css` y `motion.css`. No se han inventado anécdotas. Los mensajes son un borrador para revisar antes de compartir.
+
+## Música
+
+`music.js` y `music.css` añaden un reproductor para el archivo proporcionado `assets/lover-remix.mp3`: Lover (Remix), Taylor Swift y Shawn Mendes. Incluye pausa, reproducción, volumen y repetición. Conserva la posición y las preferencias durante la sesión al cambiar de página. Puede haber una breve interrupción al navegar porque son documentos separados. La reproducción comienza tras un gesto del visitante; si el navegador bloquea retomarla, se puede usar el botón del reproductor.
 
 Cada capítulo requiere descubrir su detalle antes de continuar: deslizador de fecha, palabras con mensajes, nota que gira, linterna, tres estrellas y sobre animado. El jardín responde al puntero y sus flores se encienden al tocarlas. Se respeta la preferencia de movimiento reducido. Las actividades también se pueden usar con teclado.
 
