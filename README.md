@@ -6,7 +6,11 @@ La fecha de entrada es **22/09/2026** (también acepta 22092026). Las puertas se
 
 ## Personalizar
 
-Los textos están en `app.js`, en `chapters`. El diseño está en `style.css`. No se han inventado anécdotas ni añadido música. Los mensajes son un borrador para revisar antes de compartir.
+Los textos están en `app.js`, en `chapters`. La navegación y las actividades están en `experience.js`. El diseño está en `style.css` y `motion.css`. No se han inventado anécdotas ni añadido música. Los mensajes son un borrador para revisar antes de compartir.
+
+Cada capítulo requiere descubrir su detalle antes de continuar: deslizador de fecha, palabras con mensajes, nota que gira, linterna, tres estrellas y sobre animado. El jardín responde al puntero y sus flores se encienden al tocarlas. Se respeta la preferencia de movimiento reducido. Las actividades también se pueden usar con teclado.
+
+Verifica la lógica de acceso y las actividades con `node --test tests/experience.test.cjs`. Son comprobaciones de comportamiento con un DOM simulado; no sustituyen la revisión visual en un navegador.
 
 ## GitHub Pages
 
